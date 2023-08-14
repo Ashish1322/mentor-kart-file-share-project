@@ -30,8 +30,8 @@ const addFile = (req,res) => {
                 const transporter = nodemailer.createTransport({
                     service: 'gmail',
                     auth: {
-                      user: 'a.m2001nov@gmail.com',
-                      pass: 'faolcgqlrgiaxnkc'
+                      user: '',
+                      pass: ''
                     }
                   });
 
